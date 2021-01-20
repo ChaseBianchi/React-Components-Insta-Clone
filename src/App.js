@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className='App'>
       <SearchBar search={search} posts={posts}/>
-      <Posts likePost={likePost} posts={posts}/>
+      <Posts likePost={likePost} post={posts}/>
       {/* Add SearchBar and Posts here to render them */}
       {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
